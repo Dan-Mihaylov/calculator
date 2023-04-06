@@ -4,6 +4,7 @@ from tkinter import *
 root = Tk()
 root.title("Simple Calculator")
 root.iconbitmap('calculator.ico')
+root.resizable(False, False)
 
 frame = LabelFrame(root, padx=10, pady=10, relief="groove", border=3, borderwidth=3)
 frame.pack()
